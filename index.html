@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>周报</title>
+  <link rel="stylesheet" href="./css/lss.base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    (function (window, doc) {
+      var docEl = document.documentElement;
+      var dpr = window.devicePixelRatio || 1;
+      var scale = 1 / dpr;
+      var metaEl = document.querySelector('meta[name="viewport"]');
+      var tid;
+      docEl.setAttribute('data-dpr', dpr);
+      metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+      function refreshRem() {
+        var rem = docEl.clientWidth / 10;
+        docEl.style.fontSize = rem + 'px';
+      }
+      refreshRem()
+      window.addEventListener('resize', refreshRem)
+      window.addEventListener('pageshow', function (e) {
+        if (e.persisted) {
+          refreshRem()
+        }
+      })
+    })(window, document)
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <ul>
+        <li class="on">概要</li>
+        <li>全球</li>
+        <li>国内</li>
+        <li>达成</li>
+        <li>趋势</li>
+        <li>海外</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

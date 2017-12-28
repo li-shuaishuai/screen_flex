@@ -1,0 +1,33 @@
+.container .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 666;
+  background-color: #ccc;
+  width: 100%
+}
+.container .nav ul {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around
+}
+.container .nav ul li {
+  height: 0.46875rem;
+  display: inline-block;
+  width: 1.48rem;
+  text-align: center;
+  background-color: pink;
+  line-height: 0.46875rem
+}
+.container .nav ul li.on {
+  background-color: #F5F7FE;
+  border-color: #506CE1;
+  color: #506EE0
+}
+
+li { 
+  font-size: 24px
+}
+[data-dpr="3"] li {
+ font-size: 36px
+}
