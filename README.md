@@ -6,10 +6,7 @@ index.min.html文件中js代码为压缩后代码
 
 ## 使用
 
-1. 在头部添加meta标签
-   ```html
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   ```
+1. 在头部添加meta标签`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
    
 2. 将index.min.html中的script标签代码拷贝放在头部
 
