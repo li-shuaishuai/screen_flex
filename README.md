@@ -22,5 +22,6 @@ index.min.html文件中js代码为压缩后代码
     font-size: 36px
    }
    ```
+   注：字体大小等请根据具体项目要求配置
 
 详细介绍请阅读：http://www.lishuaishuai.com/solution/614.html
