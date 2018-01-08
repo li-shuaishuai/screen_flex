@@ -2,7 +2,7 @@
 h5屏幕适配方案
 
 index.html文件中js代码为未压缩代码   
-index.min.html文件中js代码为压缩后代码   
+index.min.html文件中js代码为压缩后代码     
 注：请使用index.min.html文件中压缩后的代码
 
 ## 使用
