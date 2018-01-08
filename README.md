@@ -12,6 +12,15 @@ index.min.html文件中js代码为压缩后代码
 
 3. 使用时在css文件中`px`转`rem`：`css尺寸=设计稿标注尺寸/（设计稿横向分辨率/10）`
 
-
+4. 字体大小设置：
+   
+   ```css
+   li { 
+     font-size: 24px
+   }
+   [data-dpr="3"] li {
+    font-size: 36px
+   }
+   ```
 
 详细介绍请阅读：http://www.lishuaishuai.com/solution/614.html
