@@ -17,7 +17,10 @@ index.min.html文件中js代码为压缩后代码  
    
    ```css
    li { 
-     font-size: 24px
+     font-size: 12px
+   }
+   [data-dpr="2"] li {
+    font-size: 24px
    }
    [data-dpr="3"] li {
     font-size: 36px
