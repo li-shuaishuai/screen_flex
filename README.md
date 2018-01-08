@@ -11,7 +11,7 @@ index.min.html文件中js代码为压缩后代码  
    
 2. 将index.min.html中的script标签代码拷贝放在头部
 
-3. 使用时在css文件中`px`转`rem`：`css尺寸=设计稿标注尺寸/（设计稿横向分辨率/10）`
+3. 使用时在css文件中`px`转`rem`：`css尺寸=设计稿标注尺寸/（设计稿横向分辨率/10）`     
    注：在less、scass等预编译语言中，可使用函数来进行`css`to`less`自动转换，也可使用sublime、vscode中的插件进行转换。
 
 4. 字体大小设置举例：
