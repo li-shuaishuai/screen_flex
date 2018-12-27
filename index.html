@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,11 @@
   <link rel="stylesheet" href="./css/lss.base.css">
   <link rel="stylesheet" href="./css/style.css">
   <script>
-    (function (window, doc) {
+    !function (window, doc) {
       var docEl = document.documentElement;
       var dpr = window.devicePixelRatio || 1;
       var scale = 1 / dpr;
       var metaEl = document.querySelector('meta[name="viewport"]');
-      var tid;
       docEl.setAttribute('data-dpr', dpr);
       metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
       function refreshRem() {
@@ -27,7 +27,7 @@
           refreshRem()
         }
       })
-    })(window, document)
+    }(window, document)
   </script>
 </head>
 
